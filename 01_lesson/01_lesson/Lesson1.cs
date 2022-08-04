@@ -6,7 +6,7 @@ using System;
 
 namespace Lesson_01 
 {
-    internal class Program
+    internal class Lesson1
     {
         static void Main(string[] args)
         {

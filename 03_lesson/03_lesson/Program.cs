@@ -1,5 +1,5 @@
 ﻿/*
- * Lesson 2
+ * Lesson 3
  * Author: Vadim PLATON
  */
 

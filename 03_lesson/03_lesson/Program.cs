@@ -145,7 +145,7 @@ namespace Lesson03
                 s = Console.ReadLine();
                 if(int.TryParse(s, out n))
                 {
-                    if (n != 0 && n % 2 != 0)
+                    if (n > 0 && n % 2 != 0)
                     {
                         allGoodNumbers += $" {n}";
                         ans += n;
@@ -161,7 +161,7 @@ namespace Lesson03
 
 
             
-            Console.WriteLine($"Сумма нечетных чисел: {ans}");
+            Console.WriteLine($"Сумма нечетных положительных чисел: {ans}");
             Console.WriteLine(allGoodNumbers);
             Console.WriteLine("Для продолжения нажмите любую клавишу...");
             Console.ReadLine();
